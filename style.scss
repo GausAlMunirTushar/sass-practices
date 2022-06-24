@@ -1,4 +1,42 @@
-$red-color: red;
+/* sass variables */
+$main-color: #ff0000;
+$main-font: Roboto, sans-serif;
+$main-font-size: 20px;
+$main-font-color: #ffffff;
+$main-font-family: $main-font;
+$main-font-weight: normal;
 h1{
     color: $red-color;
+}
+/* sass nesting */
+nav{
+    ul{
+        border: none;
+        li{
+            padding: 10px 20px;
+            a{
+                color: $border-color;
+                font-size: 20px;
+                font-family: $main-font;
+                &:hover{
+                    color: $red-color;
+                }
+            }
+        }
+    }
+}
+
+section{
+    background-color: $main-color;
+    padding: 20px;
+    h1{
+        color: $main-font-color;
+        font-size: $main-font-size;
+        font-family: $main-font;
+        font-weight: $main-font-weight;
+    }
+    &::selection{
+        background-color: $main-color;
+        color: $main-font-color;
+    }
 }

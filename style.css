@@ -1,4 +1,23 @@
 h1 {
   color: red;
 }
+
+/* sass nesting */
+nav ul {
+  border: none;
+}
+
+nav ul li {
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: green;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+}
+
+nav ul li a:hover {
+  color: red;
+}
 /*# sourceMappingURL=style.css.map */
