@@ -1,5 +1,6 @@
+/* sass variables */
 h1 {
-  color: red;
+  color: #ff0000;
 }
 
 /* sass nesting */
@@ -12,12 +13,42 @@ nav ul li {
 }
 
 nav ul li a {
-  color: green;
+  color: #ff0000;
   font-size: 20px;
   font-family: Roboto, sans-serif;
 }
 
 nav ul li a:hover {
-  color: red;
+  color: #ff0000;
+}
+
+section {
+  background-color: #ff0000;
+  padding: 20px;
+}
+
+section h1 {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}
+
+section::-moz-selection {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+section::selection {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+button {
+  width: 200px;
+  background-color: #ff0000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
