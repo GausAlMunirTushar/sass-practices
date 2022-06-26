@@ -1,0 +1,30 @@
+/* 
+
+        Sass Opreators:
+        Type of Operators Sass
+        - Equality
+        - Relational
+        - Numeric
+        - String
+        - Boolean
+
+        equality & Relational Operators:
+
+        Equality Operators
+            == Equal to
+            * != Not Equal to
+
+        Relational Operators
+            > Less than
+            < Grater Than
+            => Less than equal
+            =< Grather than to euqal
+*/
+$var1 : 10;
+$var2 : 20;
+$var3 : 30;
+.opt{
+    font-family: arial == sans-serif ;
+    font-size: $var1 + $var2 + $var3 +px;
+    width: $var1 * $var2 +px;
+}
