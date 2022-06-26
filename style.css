@@ -1,4 +1,19 @@
 /* sass variables */
+.abc, .xyz, .dbe {
+  color: red;
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.xyz {
+  color: green;
+}
+
+.dbe {
+  color: blue;
+}
+
 h1 {
   color: #ff0000;
 }

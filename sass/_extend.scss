@@ -1,0 +1,14 @@
+.abc{
+    color:red;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform:uppercase;
+}
+.xyz{
+    color: green;
+    @extend .abc
+}
+.dbe{
+    color: blue;
+    @extend .abc
+}
