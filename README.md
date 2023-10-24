@@ -1,1 +1,9 @@
-# sas practices
+# SASS Practices 
+
+- variables
+- operators
+- extend
+- functions
+- interpolation
+- directive
+
